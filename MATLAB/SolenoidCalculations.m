@@ -18,7 +18,7 @@ t = 0:0.05:2*pi;
 hold on
 fplot(sinfunc,[0 2*pi])
 
-for i = 1:7
+for i = 1:5
     L2 = i * L1;
     x = L1*cos(theta) + L2*cos(asin(L1/L2 * sin(theta))) - L2;
     fplot(x,[0 2*pi]);
