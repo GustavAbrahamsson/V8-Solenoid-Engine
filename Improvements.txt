@@ -1,0 +1,20 @@
+1.0
+
+add LEDs
+	power connected
+	active
+	each individual piston firing
+	barcode to indicate throttle?
+
+microcontroller
+	display
+
+hall effect measuring
+
+drive each solenoid individually
+
+on/off switch
+	on: 0% throttle is idle?
+	off: 0 power
+
+double check footprint pin numbers compared to symbol (diodes switching anodes/cathodes)
